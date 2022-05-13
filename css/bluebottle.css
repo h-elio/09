@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+html,
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    text-size-adjust: none;
+    font-size: 16px;
+}
+
+a {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+.header {
+    background-color: #242424;
+    height: 70px;
+    position: relative;
+}
+
+.header h1 {
+    height: 70px;
+    width: 150px;
+    margin: auto;
+    text-indent: -9999px;
+    font-size: 0;
+    background: url(../img/icon/text-logo.png) no-repeat center;
+    background-size: auto 31px;
+}
+
+.header h1 a {
+    height: 100%;
+}
+
+.header .home-btn {
+    text-indent: -9999px;
+    font-size: 0;
+    width: 36px;
+    height: 34px;
+    background: url(../img/icon/toplogo.png) no-repeat center / 12px auto;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.header .menu-btn {
+    text-indent: -9999px;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    background: url(../img/icon/menu-btn.png) no-repeat center / 29px auto;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+}
+
+.main-banner li {
+    position: relative;
+}
+.main-banner li img {
+    width: 100%;
+}
+
+.main-banner li a {
+    position: absolute;
+    width: 38.055vw;
+    height: 10.277vw;
+    background-color: #fff;
+    text-align: center;
+    line-height: 10.277vw;
+    bottom: 17.777vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.88vw;
+}
+
+/* 구독 */
+
+.subscribe-area {
+    padding: 12.222vw 0;
+}
+
+.subscribe-area .subscribe-title {
+    font-size: 4.44vw;
+    color: #36373b;
+    text-align: center;
+    line-height: 1.79;
+    margin-bottom: 3.888vw;
+    text-align: center;
+}
+.subscribe-area .subscribe-list li {
+    text-align: center;
+    margin-bottom: 3.3333vw;
+}
+
+.subscribe-area .subscribe-list li img {
+    width: 73.8888vw;
+}
+
+.subscribe_btn {
+    width: 64.722vw;
+    height: 16.389vw;
+    font-size: 4.4444vw;
+    background-color: #36373b;
+    color: #fff;
+    text-align: center;
+    line-height: 16.389vw;
+    margin: 5.55vw auto 0;
+}
+
+/* 메뉴 */
+.menu-area {
+    background: url(../img/menu-bg.png) no-repeat top center / cover;
+    padding: 16.111vw 4.444vw 14.722vw;
+}
+
+.menu-area .menu-title {
+    color: #fff;
+    text-align: center;
+    font-size: 8.055vw;
+    padding-top: 4.44vw;
+    position: relative;
+}
+
+.menu-area .menu-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1da4d9;
+    width: 10.833vw;
+    height: 1.389vw;
+}
+
+.menu-area .menu-title-sub {
+    color: #1da4d9;
+    text-align: center;
+    margin-top: 3.889vw;
+    font-size: 3.889vw;
+    margin-bottom: 8.889vw;
+}
+
+.menu-area .menu-list > li {
+    float: left;
+    width: calc(50% - 4.5px);
+}
+
+.menu-area .menu-list > li:nth-child(2n + 1) {
+    margin-right: 4.5px;
+}
+.menu-area .menu-list > li:nth-child(2n) {
+    margin-left: 4.5px;
+}
+
+.menu-area .menu-list > li img {
+    width: 100%;
+}
+
+.menu-area .menu-list > li span {
+    display: block;
+}
+.menu-area .menu-list > li .menu-thum-txt {
+    text-align: center;
+    color: #a1a1a1;
+    padding: 3.889vw 0;
+}
+.menu-area .menu-list > li .menu-thum-txt strong {
+    color: #fff;
+
+    display: block;
+}
+
+.menu-area .menu-allview-btn {
+    margin: auto;
+    color: #fff;
+    border: 1px solid #464646;
+    background-color: #1da4d9;
+    width: 45.55vw;
+    height: 13.35vw;
+    line-height: 13.35vw;
+    margin-top: 11.66vw;
+    font-size: 3.6vw;
+    text-align: center;
+}
+
+/* best menu */
+.bestmenu-area {
+    background: #ebebeb;
+    padding: 15.278vw 4.444vw 7.778vw;
+}
+
+.bestmenu-area .best-title {
+    color: #36373b;
+    font-size: 5.556vw;
+    padding-top: 4.44vw;
+    padding-left: 4.639vw;
+    position: relative;
+    font-weight: 500;
+}
+
+.bestmenu-area .best-title-sub {
+    font-size: 3.472vw;
+    margin: 4.167vw 0 4.639vw 4.639vw;
+}
+
+.bestmenu-area .best-box {
+    width: 90.472vw;
+    height: 124.722vw;
+    background-color: #fff;
+}
+.bestmenu-area img {
+    width: 90.472vw;
+    height: 90.472vw;
+}
+
+.bestmenu-area .best-name {
+    font-size: 5.278vw;
+    font-weight: 500;
+    margin: 4.611vw 0 4.167vw 8.889vw;
+}
+
+.bestmenu-area .best-des {
+    font-size: 3.194vw;
+    line-height: 5.278vw;
+    margin: 0 8.333vw;
+}
+
+.bestmenu-area .tab {
+    width: 22.222vw;
+    margin: 6.944vw auto 9.778vw;
+}
+
+.bestmenu-area .tab li {
+    text-indent: -9999px;
+    float: left;
+    width: 4.444vw;
+    height: 4.444vw;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-left: 4.444vw;
+}
+.bestmenu-area .tab li:first-child {
+    background-color: #fff;
+    margin-left: 0;
+}
+
+/* coffee match */
+.coffeematch-area {
+    padding: 8.889vw 4.444vw;
+    background-color: #242424;
+}
+
+.coffeematch-area .match-img img {
+    width: 100%;
+    margin-bottom: 15.556vw;
+}
+
+.coffeematch-area .match-box {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 8.889vw;
+}
+
+.coffeematch-area .match-title {
+    font-size: 10.278vw;
+    margin-bottom: 8.333vw;
+}
+.coffeematch-area .match-title-sub {
+    font-size: 3.611vw;
+    margin-bottom: 11.389vw;
+}
+.coffeematch-area .quiz-btn {
+    margin: auto;
+    text-align: center;
+    width: 46.944vw;
+    height: 15.833vw;
+    line-height: 15.833vw;
+    background-color: #00a1df;
+    color: #fff;
+    font-size: 4.444vw;
+}
+
+.find-area {
+    text-align: center;
+}
+
+.find-area .find-title {
+    font-size: 8.889vw;
+    font-weight: 500;
+    color: #00a1df;
+    padding: 8.889vw 0;
+}
+.find-title-sub {
+    font-size: 4.861vw;
+    margin-bottom: 16.389vw;
+}
+.find-list {
+    text-align: left;
+    margin-left: 14.167vw;
+}
+.find-list dt {
+    display: inline-block;
+    background-color: #afafaf;
+    color: white;
+    font-size: 5.139vw;
+    padding: 1.667vw;
+    margin: 4.167vw 0;
+}
+.find-list dt:nth-of-type(2) {
+    margin-top: 8.889vw;
+}
+.find-list dd {
+    font-size: 4.306vw;
+    line-height: 5.972vw;
+}
+
+.find-btn {
+    margin: 10.833vw auto 13.472vw;
+    text-align: center;
+    width: 46.944vw;
+    height: 15.833vw;
+    line-height: 15.833vw;
+    background-color: #00a1df;
+    color: #fff;
+    font-size: 4.444vw;
+}
+
+.find-img {
+    width: 83.889vw;
+    height: 76.389vw;
+    background: #ebebeb;
+    margin: 0 auto 15.278vw;
+}
+
+.find-img img {
+    width: 100%;
+}
